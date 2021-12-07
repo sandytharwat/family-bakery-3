@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img {
+    width: 15%;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    position: fixed;
+    
+}
+.nav{
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: large;
+    
+
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: yellow;
+}
+li {
+    float: left;
+    color: white;
+  }
+ 
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .clr{
+      clear: both;
+  }
+.cover 
+{
+    background-image:url("images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.cover .home
+{
+    width: 500px;
+    margin: auto;
+   text-align: center;
+   color: white;
+   padding-top: 27px;
+   
+  
+   
+}
+.cover .home h3
+{
+    font-size: 25px;
+    margin-top: 20%;
+    
+}
+.cover h1{
+    font-size: 80px;
+    font-weight: 400%;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+}
+.cover .home p{
+    font-size: 16px;
+    font-weight: 100px;
+    
+}
+.cover .home button {
+    color: white;
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    border: white;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 3px;
+     
+}
+.cover .home .we{
+    border: transparent;
+    background-color: #896d4e;
+}
+.cover .home .ws a
+{
+    
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.cover .home .dot{
+    background-color: aqua;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    margin-top: 80px;
+    border:2px white;
+    border-radius: 40%;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+}
+.cover .home .dot .pos{
+    background-color:white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+
+
+.item{
+    height: 100vh;
+    width: 49.5%;
+    display: inline-block;
+}
+
+.item img
+{
+    
+    width: 80%;
+    height: 80%;
+    margin: 80px 70px;
+    
+}
+.caption{
+    
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    margin: 120px 10px;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.caption h2{
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 2rem;
+}
+
+.sm{ 
+    background-color: whitesmoke;
+    height: 85%;
+}
+
+.sa{
+  
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    margin: 90px 60px;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.san{
+    height: 100vh;
+    width: 49.5%;
+    display: inline-block;
+}
+    
+    
+.san img
+{
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bac{
+    
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.bac .note p{
+    font-weight: 400;
+}
+.ind{
+    
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.ma img{
+    width: 105%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+
+.end{
+    
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+
+.ha img{
+    width: 105%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+.ope{
+    
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.ar img{
+    width: 105%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+.text{
+    background-color: whitesmoke;
+    height: 85%;
+}
+.lol{
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    margin: 90px 60px;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text.lol h2 p{
+    font-weight: 100;
+}
+.text .map{
+    width: 600;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.footer{
+    background-color:#403d38;
+    background-image:url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y: center;
+}
+.footer .pr{
+   line-height: 1.86em;
+   font-family: 'Open Sans',arial;
+    display: inline-block;
+    width: 22%;
+    margin-top: 100px;
+   margin-bottom:130px;
+   margin-left: 20px;
+   vertical-align: top;
+   color: #969696;
+   font-size: 16px;
+    
+}
+    
+.footer p{
+   padding-top: 10px;
+   font-size: 16px;
+   line-height: 2;
+   font-style: initial;
+   font-weight: 80;
+   font-family:"Alegreya";
+
+}
+.footer h2{
+    color: white;
+    font-size: 20px;
+}
+.footer hr{
+    color: thistle;
+}
+.bos{
+    background-color:#353330;
+    height: 50%;
+    text-align: center;
+}
+.bos img{
+    margin-top: 100px;
+}
+
+
